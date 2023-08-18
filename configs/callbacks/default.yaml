@@ -1,0 +1,8 @@
+ModelCheckpoint:
+  _target_: pytorch_lightning.callbacks.ModelCheckpoint
+  monitor: "valid_loss"
+  mode: "min"
+  verbose: False
+  dirpath: ${paths.root_dir}/models
+  filename: "${model.name}-{epoch:02d}-{valid_loss:.4f}"
+  save_top_k: 20
