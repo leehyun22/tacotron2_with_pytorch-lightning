@@ -6,7 +6,7 @@ log_mels: true
 is_resample: true
 batch_size: 64
 num_workers: 25
-data_path: '/mnt/data1/hslee/tc2/data/kss'
+data_path: ${paths.root_dir}/data/kss
 melkwargs: {
   'sampling_rate': 22050,
   'n_fft': 1024,
