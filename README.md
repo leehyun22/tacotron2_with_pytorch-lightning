@@ -51,5 +51,7 @@ Normalized Text: 눈 수수를 핻끼 때무ᄂ
 
 ## 참조
 https://github.com/NVIDIA/tacotron2
+
 https://www.kaggle.com/datasets/bryanpark/korean-single-speaker-speech-dataset
+
 https://github.com/sooftware/taKotron2
